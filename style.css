@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+#goldengate{
+z-index: -1;
+width:100%;
+height:100%;
+position: absolute;
+object-fit: cover;
+opacity: .8;
+}
+h1{
+font-family: 'Satisfy', cursive;
+text-align: center;
+font-size: 50px;
+color: #c44014;
+text-shadow: 5px 5px lightgrey;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+.pack-card{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.card-container{
+  background-color: #ebffff;
+  opacity: 0.7;
+  padding:15px;
+  text-align: center;
+}
+input{
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+button{
+  padding:10px;
+  font-size: 15px;
+}
